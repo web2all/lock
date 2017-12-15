@@ -1,0 +1,24 @@
+{
+    "name": "web2all/lock",
+    "description": "Web2All advisory lock with database",
+    "keywords": ["web2all","database","lock","advisory"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Merijn van den Kroonenberg",
+            "homepage": "https://github.com/merijnvdk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "web2all/framework" :"~1",
+        "adodb/adodb-php" :"~5"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
+
